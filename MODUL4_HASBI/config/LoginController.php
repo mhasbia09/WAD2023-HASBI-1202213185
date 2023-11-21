@@ -34,7 +34,8 @@ function login($input) {
             }
             // d. Set variabel session dengan key id untuk menyimpan id user
             else {
-                $_SESSION['id'] = $result['id'];
+                $_SESSION['login'] = true;
+                $_SESSION
             }
             //
 
